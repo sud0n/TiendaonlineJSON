@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Merchant Armoury</title>
+    <meta name="description" content="The Merchant Armoury is Night City's most popular weapons shop.">
+    <meta name="author" content="Zakariae Barakat">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Imagenes/budgetarms.webp">
+</head>
+
+<body>
+
+    <header class="top-banner">
+        <img src="Imagenes/logo.webp" alt="Arasaka" class="logo">
+        <img src="Imagenes/Kang_Tao.webp" alt="Kang Tao" class="logo">
+        <img src="Imagenes/militech.webp" alt="Militech" class="logo militech-logo">
+    </header>
+
+    <section class="toolbar">
+        <div class="filters">
+            <button class="filter-btn active" data-category="Todo">Todo</button>
+            <button class="filter-btn" data-category="Arasaka">Arasaka</button>
+            <button class="filter-btn" data-category="Militech">Militech</button>
+            <button class="filter-btn" data-category="Kang Tao">Kang Tao</button>
+        </div>
+        <input type="text" id="search-input" placeholder="Buscar por nombre o descripción" aria-label="Buscar productos">
+        <select id="sort-select" aria-label="Ordenar productos">
+            <option value="">Orden por defecto</option>
+            <option value="price-asc">Precio: de menor a mayor</option>
+            <option value="price-desc">Precio: de mayor a menor</option>
+            <option value="name">Nombre: A-Z</option>
+            <option value="stock">Más stock disponible</option>
+        </select>
+        <button id="cart-btn">Ver Cesta <span id="cart-count">0</span></button>
+    </section>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>The Merchant Armoury</h1>
+            <p class="banner-subtitle">What are you buying, <strong>stranger</strong>?</p>
+        </div>
+    </section>
+
+    <section class="Armoury-Gallery">
+        <div id="image-products"></div>
+    </section>
+
+    <!-- Ventana modal de la cesta -->
+    <div id="cart-modal" class="modal hidden">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+            <button id="close-modal" class="close-btn" aria-label="Cerrar cesta">✕</button>
+            <h2 id="cart-title">Tu cesta</h2>
+            <p id="shipping-msg"></p>
+            <div id="cart-list"></div>
+            <p class="cart-total">Total: $<span id="cart-total">0.00</span></p>
+            <label class="checkout-customer" for="customer-select">
+                <span>Cliente:</span>
+                <select id="customer-select" aria-label="Elegir cliente">
+                    <option value="">Cargando clientes...</option>
+                </select>
+                <small id="customer-address"></small>
+            </label>
+            <button id="checkout-btn">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <!-- Notificaciones toast -->
+    <div id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

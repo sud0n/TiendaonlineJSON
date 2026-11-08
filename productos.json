@@ -1,0 +1,182 @@
+[
+  {
+    "id": "arasaka_tamayura",
+    "name": "Arasaka Tamayura",
+    "category": "Arasaka",
+    "description": "Pistola pesada semiautomática. Calibre estándar de la seguridad de Arasaka, capacidad de 8 cartuchos. Disparo lento pero de gran impacto.",
+    "price": 1299.99,
+    "stock": 8,
+    "image": "Imagenes/arasaka/Nue_Tamayura_2077.webp"
+  },
+  {
+    "id": "arasaka_shigure",
+    "name": "Arasaka Shigure",
+    "category": "Arasaka",
+    "description": "Subfusil (SMG) automático con una alta cadencia de tiro y capacidad de rebote de balas. Capacidad de 50 cartuchos.",
+    "price": 1850.5,
+    "stock": 6,
+    "image":"Imagenes/arasaka/Masamune_Arasaka_2077.webp"
+  },
+  {
+    "id": "arasaka_shingen_mkv",
+    "name": "Prototipo: Shingen Mark V",
+    "category": "Arasaka",
+    "description": "Subfusil inteligente icónico que dispara balas explosivas guiadas. Se encuentra en el parque industrial de Arasaka durante la misión 'Gimme Danger'.",
+    "price": 8999.99,
+    "stock": 1,
+    "image":"Imagenes/arasaka/Shingen_Prototype.webp"
+  },
+  {
+    "id": "arasaka_jinchu_maru",
+    "name": "Jinchu-maru",
+    "category": "Arasaka",
+    "description": "Katana icónica que se obtiene al derrotar al jefe Oda durante la misión del desfile.",
+    "price": 12499.99,
+    "stock": 1,
+    "image":"Imagenes/arasaka/Katana_Takemura.webp"
+  },
+  {
+    "id": "arasaka_black_unicorn",
+    "name": "Black Unicorn",
+    "category": "Arasaka",
+    "description": "Katana especial que se obtiene al vincular una cuenta de CD Projekt RED.",
+    "price": 15999.99,
+    "stock": 0,
+    "image":"Imagenes/arasaka/Katana_GoG.webp"
+  },
+  {
+    "id": "arasaka_kongou",
+    "name": "Kongou",
+    "category": "Arasaka",
+    "description": "Pistola icónica que se encuentra en el ático de Yorinobu durante el golpe. Permite el rebote de balas sin necesidad de ciberware.",
+    "price": 6750.5,
+    "stock": 2,
+    "image":"Imagenes/arasaka/Liberty_Yorinobu.webp"
+  },
+  {
+    "id": "arasaka_nihan",
+    "name": "Nihan",
+    "category": "Arasaka",
+    "description": "Cuchillo icónico que se recupera del cuerpo de Saburo Arasaka. Cuenta con una alta probabilidad de aplicar sangrado.",
+    "price": 2999.99,
+    "stock": 3,
+    "image":"Imagenes/arasaka/Tanto_Saburo.webp"
+  },
+  {
+    "id": "militech_lexington",
+    "name": "Militech M-10AF Lexington",
+    "category": "Militech",
+    "description": "Pistola ligera totalmente automática. Muy popular por su alta cadencia de tiro y versatilidad en combate urbano.",
+    "price": 899.99,
+    "stock": 15,
+    "image":"Imagenes/militech/Lexington_Default.webp"
+  },
+  {
+    "id": "militech_omaha",
+    "name": "Militech M-76e Omaha",
+    "category": "Militech",
+    "description": "Pistola técnica (Tech) que dispara ráfagas de tres proyectiles. Puede cargarse para realizar disparos penetrantes de alta energía.",
+    "price": 1499.9,
+    "stock": 9,
+    "image":"Imagenes/militech/Omaha_Default.webp"
+  },
+  {
+    "id": "militech_saratoga",
+    "name": "Militech M221 Saratoga",
+    "category": "Militech",
+    "description": "Subfusil (SMG) clásico y fiable. Ofrece un excelente control de retroceso y una cadencia de fuego sostenida muy sólida.",
+    "price": 1749.99,
+    "stock": 7,
+    "image":"Imagenes/militech/Saratoga_Default.webp"
+  },
+  {
+    "id": "militech_ajax",
+    "name": "Militech M-179e Ajax",
+    "category": "Militech",
+    "description": "Fusil de asalto estándar utilizado por las fuerzas militares. Gran potencia de parada y capacidad para atravesar coberturas ligeras.",
+    "price": 2299.99,
+    "stock": 5,
+    "image":"Imagenes/militech/Ajax_Default.webp"
+  },
+  {
+    "id": "militech_achilles",
+    "name": "Militech M-179e Achilles",
+    "category": "Militech",
+    "description": "Fusil de precisión técnico (Tech). Dispara múltiples proyectiles en abanico y cuenta con un disparo cargado devastador.",
+    "price": 3899.99,
+    "stock": 3,
+    "image":"Imagenes/militech/Achilles_Default.webp"
+  },
+  {
+    "id": "militech_canto",
+    "name": "Militech Canto MK.6",
+    "category": "Militech",
+    "description": "Ciberterminal icónico y secreto desarrollado por Militech que permite desatar el hackeo letal del Ciberespacio Salvaje (Blackwall).",
+    "price": 24999.99,
+    "stock": 0,
+    "image":"Imagenes/militech/HauntedCyberdeck.webp"
+  },
+  {
+    "id": "militech_dying_night",
+    "name": "Dying Night",
+    "category": "Militech",
+    "description": "Variante icónica de la Lexington entregada por Wilson. Aumenta el daño por disparo a la cabeza y reduce el tiempo de recarga.",
+    "price": 5199.99,
+    "stock": 2,
+    "image":"Imagenes/militech/Lexington_Wilson.webp"
+  },
+  {
+    "id": "militech_lizzie",
+    "name": "Lizzie",
+    "category": "Militech",
+    "description": "Pistola técnica icónica basada en la Omaha. Dispara un proyectil adicional por ráfaga y añade daño térmico masivo.",
+    "price": 4650.5,
+    "stock": 2,
+    "image":"Imagenes/militech/Omaha_Suzie.webp"
+  },
+  {
+    "id": "kang_tao_chao",
+    "name": "Kang Tao A-22B Chao",
+    "category": "Kang Tao",
+    "description": "Pistola inteligente (Smart) ligera que dispara ráfagas rápidas de tres proyectiles rastreadores autoguiados.",
+    "price": 1199.99,
+    "stock": 10,
+    "image":"Imagenes/kangTao/Chao_Default.webp"
+  },
+  {
+    "id": "kang_tao_dian",
+    "name": "Kang Tao G-58 Dian",
+    "category": "Kang Tao",
+    "description": "Subfusil inteligente (Smart) con una cadencia de tiro extremadamente alta y un sistema de recarga magnética muy eficiente.",
+    "price": 2649.99,
+    "stock": 6,
+    "image":"Imagenes/kangTao/Dian_Default.webp"
+  },
+  {
+    "id": "kang_tao_zhuo",
+    "name": "Kang Tao L-69 Zhuo",
+    "category": "Kang Tao",
+    "description": "Escopeta inteligente pesada. Dispara perdigones rastreadores que pueden fijarse en hasta ocho enemigos diferentes a la vez.",
+    "price": 3499.99,
+    "stock": 4,
+    "image":"Imagenes/kangTao/Zhuo_Default.webp"
+  },
+  {
+    "id": "kang_tao_yinglong",
+    "name": "Yinglong",
+    "category": "Kang Tao",
+    "description": "Variante icónica de la G-58 Dian. Añade daño de choque adicional y tiene una alta probabilidad de causar explosiones EMP al impactar.",
+    "price": 7899.99,
+    "stock": 1,
+    "image":"Imagenes/kangTao/Dian_Yinglong.webp"
+  },
+  {
+    "id": "kang_tao_ba_xing_chong",
+    "name": "Ba Xing Chong",
+    "category": "Kang Tao",
+    "description": "Escopeta inteligente icónica basada en la Zhuo. Dispara proyectiles explosivos guiados que destrozan por completo a los objetivos.",
+    "price": 9499.99,
+    "stock": 1,
+    "image":"Imagenes/kangTao/Zhuo_Eight_Star.webp"
+  }
+]
